@@ -1,0 +1,17 @@
+[package]
+name = "crossterm-pasts"
+version = "0.1.0"
+authors = ["Jeron Aldaron Lau <jeronlau@plopgrizzly.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies.crossterm]
+version = "0.18"
+features = ["event-stream"]
+
+[dependencies.pasts]
+version = "0.6"
+
+[dependencies.futures-core]
+version = "0.3"
